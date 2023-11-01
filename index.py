@@ -7,9 +7,9 @@ driver.maximize_window()
 driver.find_element_by_id("sbGlobalNavLoginBtn").click()     # to go to login page
 
 elem1= driver.find_element_by_id("sbxJxRegEmail")
-elem1.send_keys("enter your email")
+elem1.send_keys("kyquach19@gmail.com")
 elem2= driver.find_element_by_id("sbxJxRegPswd")
-elem2.send_keys("password")
+elem2.send_keys("0985123100")
 driver.find_element_by_id("loginBtn").click()
 
 #dealing with alert/pop-up
